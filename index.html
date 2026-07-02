@@ -12,6 +12,8 @@
   h2 { font-size: 1.2em; margin-top: 1.8em; }
   .muted { opacity: 0.65; font-size: 0.95em; }
   .card { border: 1px solid rgba(128,128,128,0.3); border-radius: 14px; padding: 16px 18px; margin: 18px 0; }
+  .lang-switch { margin: 12px 0 28px; }
+  .lang-switch a { margin-right: 14px; font-weight: 600; text-decoration: none; }
   hr { border: none; border-top: 1px solid rgba(128,128,128,0.35); margin: 48px 0; }
 </style>
 </head>
@@ -19,11 +21,13 @@
 
 <h1>Kidu — Support</h1>
 <p class="muted">Baby care diary: sleep, feeding, diapers, growth &amp; more — private by design.</p>
+<p class="lang-switch"><a href="#en">English</a> <a href="#ru">Русский</a></p>
 
+<div id="en">
 <div class="card">
-  <h2 style="margin-top:0">Contact us / Связаться с нами</h2>
+  <h2 style="margin-top:0">Contact us</h2>
   <p>Email: <a href="mailto:kidutracker@gmail.com">kidutracker@gmail.com</a></p>
-  <p class="muted">We usually reply within 1–2 business days. / Обычно отвечаем в течение 1–2 рабочих дней.</p>
+  <p class="muted">We usually reply within 1–2 business days.</p>
 </div>
 
 <h2>FAQ</h2>
@@ -35,9 +39,21 @@ Subscriptions are managed by Apple: Settings → your name → Subscriptions →
 
 <p><strong>How do I export my data?</strong><br>
 Open Kidu → Settings → Export — you'll get a CSV file with all your entries.</p>
+</div>
 
 <hr>
 
+<div id="ru">
+<h1>Kidu — Поддержка</h1>
+<p class="muted">Дневник ухода за малышом: сон, кормление, подгузники, рост и многое другое.</p>
+
+<div class="card">
+  <h2 style="margin-top:0">Связаться с нами</h2>
+  <p>Email: <a href="mailto:kidutracker@gmail.com">kidutracker@gmail.com</a></p>
+  <p class="muted">Обычно отвечаем в течение 1–2 рабочих дней.</p>
+</div>
+
+<h2>Частые вопросы</h2>
 <p><strong>Где хранятся мои данные?</strong><br>
 Все данные хранятся локально на вашем устройстве. В Kidu нет аккаунтов и серверов. Подробнее — в <a href="privacy.html">Политике конфиденциальности</a>.</p>
 
@@ -46,6 +62,7 @@ Open Kidu → Settings → Export — you'll get a CSV file with all your entrie
 
 <p><strong>Как выгрузить данные?</strong><br>
 Kidu → Настройки → Экспорт — вы получите CSV-файл со всеми записями.</p>
+</div>
 
 </body>
 </html>
